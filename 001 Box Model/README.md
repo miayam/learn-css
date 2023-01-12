@@ -15,11 +15,11 @@ What does overflow look like?
 
 ```
 
-  - - - - - -
-  -         -
-  -   CSS is-the best
-  -         -
-  - - - - - -
+  * * * * * *
+  *         *
+  *   CSS is*the best
+  *         *
+  * * * * * *
 
 ```
 
