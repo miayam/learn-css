@@ -23,7 +23,7 @@ What does overflow look like?
 
 ```
 
-All boxes consist of content box, padding box, border box, and margin box. Those 4 type of boxes make up
+All boxes consist of content box, padding box, border box, and margin box. Those 4 types of boxes make up
 an element on the page.
 
 Content box is like an artwork.
