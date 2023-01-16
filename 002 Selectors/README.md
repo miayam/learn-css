@@ -53,7 +53,7 @@ p::after { /* CSS selector (pseudo-element selector) */
 
 /* CSS rule */
 p:hover,
-p:first-child { /* CSS selector (pseudo-class selector) */
+p:focus { /* CSS selector (pseudo-class selector) */
   border-radius: 50%; /* CSS description */
 }
 ```
