@@ -82,7 +82,7 @@ main > p { /* CSS selector (direct child) */
 
 /* CSS rule */
 p.selector.selector1 { /* CSS selector (compound to increase specificity) */
-  margin-right: 300px;
+  margin-right: 300px; /* CSS description */
 }
 ```
 
