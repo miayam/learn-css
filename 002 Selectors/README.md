@@ -61,18 +61,28 @@ p:first-child { /* CSS selector (pseudo-class selector) */
 ## Complex Selectors
 ```css
 /* CSS rule */
-p + p { /* CSS combinator (adjuscent-sibling) */
+main p { /* CSS selector (descendant, all p inside main) */
+  position: absolute; /* CSS description */
+}
+
+/* CSS rule */
+p + p { /* CSS selector (adjuscent sibling) */
   transform: translateX(-50%); /* CSS description */
 }
 
 /* CSS rule */
-h2 ~ p { /* CSS combinator (general-sibling) */
+h2 ~ p { /* CSS selector (general sibling) */
   background-color: blue; /* CSS description */
 }
 
 /* CSS rule */
-main > p { /* CSS combinator (direct child) */
+main > p { /* CSS selector (direct child) */
   display: flex; /* CSS description */
+}
+
+/* CSS rule */
+p.selector.selector1 { /* CSS selector (compound to increase specificity) */
+  margin-right: 300px;
 }
 ```
 
