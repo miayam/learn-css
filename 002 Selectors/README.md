@@ -1,6 +1,6 @@
 # Selectors
 
-How do you apply styling to an element on the web page?
+How do you apply styling to an element or a group of elements on the web page?
 > We search for an element or a group of elements with CSS selector and write CSS description that reflects the styling.
 
 What is CSS selector?
