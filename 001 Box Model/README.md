@@ -43,7 +43,5 @@ You can control how the box displayed by setting a value to `display` property i
 * `grid`, `flex`, `inline-flex`, `inline-grid` require more than a paragraph to explain. More on that later.
 
 You can also control the sizing of the box by setting a value to `box-sizing` property in CSS.
-* `content-box` means padding's size and border's size will add up to make up an element's size. So 200px for the content + 40px of padding + 20px of border makes a
-  total visible width of 260px.
-* `border-box` means padding's size and border's size get pushed in and they will not add up to an element's size. So 200px for the content + 40px of padding + 20px of 
-  border makes a total visible width of 200px.
+* `content-box` means padding's size and border's size will add up to make up an element's size. So 200px for the content + 40px of padding + 20px of border makes a total visible width of 260px.
+* `border-box` means padding's size and border's size get pushed in and they will not add up to an element's size. So 200px for the content + 40px of padding + 20px of border makes a total visible width of 200px.
