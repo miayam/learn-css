@@ -18,7 +18,7 @@ will apply.
 
 ## Specificity
 If the specificity of CSS rules in `<link>` are bigger than in `<style>` tag, the 3rd party CSS will
-apply.
+apply despite the order of appearance.
 
 ## Origin
 The cascade takes into account the origin of the CSS. The order of specificity of these origins, from least specific, to most specific is as follows:
