@@ -47,13 +47,15 @@ section { /* CSS selector (type selector) */
 ```css
 /* CSS rule */
 p::before,
-p::after { /* CSS selector (pseudo-element selector) */
+p::after { /* CSS selector (pseudo-element selector). A CSS pseudo-element is used to style specified parts of an element.
+ */
   margin-left: 2px; /* CSS description */
 }
 
 /* CSS rule */
 p:hover,
-p:focus { /* CSS selector (pseudo-class selector) */
+p:focus { /* CSS selector (pseudo-class selector). A pseudo-class is used to define a special state of an element.
+ */
   border-radius: 50%; /* CSS description */
 }
 ```
