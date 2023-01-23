@@ -102,12 +102,18 @@ Let's say we have HTML code:
     Paragraph 2
   </p>
   <h1>Title 2</h1>
+  <p>
+    Paragraph 4 <!-- h2 ~ p won't apply to this paragraph -->
+  <p>
+  <p>
+    Paragraph 5 <!-- h2 ~ p won't apply to this paragraph -->
+  <p> 
   <h2>Sub title for title 2</h2>
   <p>
-    Paragraph 3
+    Paragraph 6
   </p>
   <p>
-    Paragraph 4
+    Paragraph 7
   </p>
 </main>
 ```
