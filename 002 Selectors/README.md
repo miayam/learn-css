@@ -96,24 +96,24 @@ Let's say we have HTML code:
 <main>
   <h1>Title 1</h1>
   <p>
-    Paragraph 1
+    Paragraph 1 <!-- p + p will apply to this paragraph. -->
   </p>
   <p>
-    Paragraph 2
+    Paragraph 2 <!-- p + p will apply to this paragraph. -->
   </p>
   <h1>Title 2</h1>
   <p>
-    Paragraph 4 <!-- h2 ~ p won't apply to this paragraph -->
+    Paragraph 4 <!-- h2 ~ p won't apply to this paragraph. p + p will apply to this paragraph. -->
   <p>
   <p>
-    Paragraph 5 <!-- h2 ~ p won't apply to this paragraph -->
+    Paragraph 5 <!-- h2 ~ p won't apply to this paragraph. p + p will apply to this paragraph. -->
   <p> 
   <h2>Sub title for title 2</h2>
   <p>
-    Paragraph 6
+    Paragraph 6 <!-- h2 ~ p will apply to this paragraph. p + p will apply to this paragraph. -->
   </p>
   <p>
-    Paragraph 7
+    Paragraph 7 <!-- h2 ~ p will apply to this paragraph. p + p will apply to this paragraph. -->
   </p>
 </main>
 ```
