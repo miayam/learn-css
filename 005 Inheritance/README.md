@@ -3,35 +3,34 @@
 Some CSS properties inherit their value from their parent, user agent default style,
 or local user default style:
 
-* azimuth
-* border-collapse
-* border-spacing
-* caption-side
-* color
-* cursor
-* direction
-* empty-cells
-* font-family
-* font-size
-* font-style
-* font-variant
-* font-weight
-* font
-* letter-spacing
-* line-height
-* list-style-image
-* list-style-position
-* list-style-type
-* list-style
-* orphans
-* quotes
-* text-align
-* text-indent
-* text-transform
-* visibility
-* white-space
-* widows
-* word-spacing
+* `azimuth`
+* `border-collapse`
+* `border-spacing`
+* `caption-side`
+* `color`
+* `cursor`
+* `direction`
+* `empty-cells`
+* `font-family`
+* `font-size`
+* `font-style`
+* `font-variant`
+* `font-weight`
+* `font`
+* `letter-spacing`
+* `line-height`
+* `list-style-image`
+* `list-style-position`
+* `list-style-type`
+* `list-style`
+* `orphans`
+* `quotes`
+* `text-align`
+* `text-indent`
+* `text-transform`
+* `white-space`
+* `widows`
+* `word-spacing`
 
 Let's say:
 
