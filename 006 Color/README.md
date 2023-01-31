@@ -34,7 +34,7 @@ into hexadecimal which is `80`. So, the  CSS value to define black with
 
 ## RGB
 
-There are 3 slots, each of which has maximum value of 255. The forward slash
+There are 3 slots. Each of which has maximum value of 255. The forward slash
 `/` after 3 sequences of decimal number is to define transparancy (0 - 1 or 0% - 100%).
 
 ```css
