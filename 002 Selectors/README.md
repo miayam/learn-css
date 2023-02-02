@@ -96,33 +96,39 @@ Let's say we have HTML code:
 <main>
   <h1>Title 1</h1>
   <p>
-    Paragraph 1 <!-- Black -->
+    Paragraph 1 <!-- Nothing applies to this paragraph. -->
   </p>
   <p>
-    Paragraph 2 <!-- Blue -->
+    Paragraph 2 <!-- Margin top of 20px. -->
   </p>
   <div>
     Woops
   </div>
   <p>
-    Paragraph 3 <!-- Black -->
+    Paragraph 3 <!-- Nothing applies to this paragraph. -->
+  </p>
+  <p>
+    Paragraph 4 <!-- Margin top of 20px. -->
   </p>
   <h1>Title 2</h1>
   <p>
-    Paragraph 4 <!-- Black -->
+    Paragraph 5 <!-- Nothing applies to this paragraph. -->
   <p>
   <p>
-    Paragraph 5 <!-- Blue -->
+    Paragraph 5 <!-- Margin top of 20px. -->
   <p> 
   <h2>Sub title for title 2</h2>
   <p>
-    Paragraph 6 <!-- Red -->
+    Paragraph 6 <!-- Red text. -->
   </p>
   <div>
     Woops
   </div>
   <p>
-    Paragraph 7 <!-- Red -->
+    Paragraph 7 <!-- Red text. -->
+  </p>
+  <p>
+    Paragraph 9 <!-- Red text. Margin top of 20px. -->
   </p>
 </main>
 ```
@@ -130,12 +136,8 @@ Let's say we have HTML code:
 We'd like to have the vertical gap of 20px between each paragraph and all paragraphs that follows with `<h2>` must be red. How?
 
 ```css
-main > p {
-  color: black; /* default */
-}
-
 main > p + p {
-  color: blue;
+  margin-top: 20px;
 } 
 
 main > h2 ~ p {
