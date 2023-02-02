@@ -5,7 +5,7 @@ Yeah, they are called unit. They are like system of units in physics (`m`, `kg`,
 To correctly measure the distance between two elements or the size of the text or the lightness of the color
 or the width of an element on the page, we need sizing units to describe them. 
 
-## Numbers
+## Numbers Only
 ```css
 p {
   font-size: 14px;
