@@ -96,7 +96,7 @@ Let's say we have HTML code:
 <main>
   <h1>Title 1</h1>
   <p>
-    Paragraph 1 <!-- p + p will apply to this paragraph. -->
+    Paragraph 1 <!-- p + p won't apply to this paragraph. -->
   </p>
   <p>
     Paragraph 2 <!-- p + p will apply to this paragraph. -->
