@@ -16,7 +16,14 @@ p {
 ## Percentage
 ```css
 p {
-  color: rgba(0, 0, 0, 50%); /* 50% transparancy */
+  color: rgba(0, 0, 0, 50%); /* 50% transparancy. */
+}
+```
+
+## Degree
+```css
+p {
+  transform: rotate(20deg); /* Rotate 20 degree .*/
 }
 ```
 
