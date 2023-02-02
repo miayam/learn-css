@@ -23,7 +23,7 @@ p {
 ## Dimmensions And Lengths
 
 ### Absolute Lengths
-There many of absolute lengths you can choose from.
+There are many absolute length units you can choose from.
 Acknowledge them and forget them. The next 100 years,
 people will only use `px`.
 
