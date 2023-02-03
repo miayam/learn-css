@@ -88,9 +88,9 @@ p.selector.selector1 { /* CSS selector (compound to increase specificity) */
 }
 ```
 
-The difference between `~` and `+` ?
+What is the difference between `~` and `+` ?
 
-Let's say we have HTML code:
+Let's say we'd like to have the vertical gap of 20px between each paragraph and all paragraphs that follows with `<h2>` must be red.
 
 ```html
 <main>
@@ -133,8 +133,7 @@ Let's say we have HTML code:
 </main>
 ```
 
-We'd like to have the vertical gap of 20px between each paragraph and all paragraphs that follows with `<h2>` must be red.
-
+Here's how it's done:
 ```css
 main > p + p {
   margin-top: 20px;
@@ -144,5 +143,6 @@ main > h2 ~ p {
   color: red;
 }
 ```
+
 See the difference?
 
