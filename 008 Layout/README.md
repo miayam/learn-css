@@ -46,7 +46,7 @@ span {
 }
 ```
 It's an `inline` element on steroid. It respects `margin` and `padding`
-but sits next to each other horizontally like an `inline`. Pretty neat!
+but sits next to each other horizontally. Pretty neat!
 
 ### Floats
 ```css
