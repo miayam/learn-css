@@ -133,7 +133,7 @@ Let's say we have HTML code:
 </main>
 ```
 
-We'd like to have the vertical gap of 20px between each paragraph and all paragraphs that follows with `<h2>` must be red. How?
+We'd like to have the vertical gap of 20px between each paragraph and all paragraphs that follows with `<h2>` must be red.
 
 ```css
 main > p + p {
