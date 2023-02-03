@@ -37,7 +37,7 @@ div {
 It's a `block` element with super powers. Its child elements can be manipulated
 as if they are in x-y axis graph. It suddenly has rows and columns. Magic! 
 
-## Manipulate How An Element Flow Inside A Parent Element
+## Manipulate How An Element Flow Inside A Container
 
 ### Inline Block
 ```css
