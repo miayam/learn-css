@@ -91,7 +91,7 @@ horizontally or vertically as it's written but somehow you want to make
 it sticks on top as you scroll down. How? Worry not! We have
 `position` property.
 
-There are 5 possible values. These explanations stolen from [w3schools.com](https://www.w3schools.com/css/css_positioning.asp):
+There are 5 possible values. These explanations are stolen from [w3schools.com](https://www.w3schools.com/css/css_positioning.asp):
 * HTML elements are positioned `static` by default
 * An element with `position: relative;` is positioned relative to its normal position
 * An element with `position: absolute;` is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like `fixed`)
