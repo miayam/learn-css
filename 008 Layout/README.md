@@ -95,5 +95,5 @@ There are 5 possible values. These explanations stolen from [w3schools.com](http
 * HTML elements are positioned `static` by default
 * An element with `position: relative;` is positioned relative to its normal position
 * An element with `position: absolute;` is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like `fixed`)
-* An element with `position: fixed`; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The `top`, `right`, `bottom`, and `left` properties are used to position the element
-* An element with `position: sticky;` is positioned based on the user's scroll position. It becomes sticky when the scroll bar touches it.
+* An element with `position: fixed`; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled
+* An element with `position: sticky;` is positioned based on the user's scroll position. It becomes sticky when the scroll bar touches it
