@@ -7,10 +7,10 @@ First of all, we must understand what `display` property does
 to an element.
 
 The `display` property describes how an element flows on the page and how
-its child elements behave. We've been introduce to `inline` and `block`
+its child elements behave. We've been introduced to `inline` and `block`
 elements:
 
-* `inline` will take up space as much as its content needed.
+* `inline` will take up space as much as its content needed and sit next to each other.
 * `block` will take up the whole space horizontally.
 
 ## Manipulate Child Elements With Flexbox And Grid
