@@ -13,7 +13,7 @@ elements:
 * `inline` will take up space as much as its content needed.
 * `block` will take up the whole space horizontally.
 
-## Manipulate How Child Elements Behave With Flexbox And Grid
+## Manipulate Child Elements With Flexbox And Grid
 Flexbox and grid are like a `block` element but each of which
 has special abilities.
 
@@ -45,9 +45,8 @@ span {
   display: inline-block;
 }
 ```
-It's an `inline` element on steroid. It will respect `margin` and `padding` as
-if it's a `block` element but sits next to each other horizontally. Pretty neat!
-
+It's an `inline` element on steroid. It respects `margin` and `padding`
+but sits next to each other horizontally like an `inline`. Pretty neat!
 
 ### Floats
 ```css
@@ -57,7 +56,6 @@ img {
 ```
 Have you seen a paragraph that wraps around the image like you might see in a newspaper? 
 Yes, you can do that too on the web page.
-
 
 ### Multi Column List
 ```html
@@ -98,4 +96,4 @@ There are 5 possible values. These explanations stolen from [w3schools.com](http
 * An element with `position: relative;` is positioned relative to its normal position
 * An element with `position: absolute;` is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like `fixed`)
 * An element with `position: fixed`; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The `top`, `right`, `bottom`, and `left` properties are used to position the element
-* An element with position: sticky; is positioned based on the user's scroll position
+* An element with `position: sticky;` is positioned based on the user's scroll position
