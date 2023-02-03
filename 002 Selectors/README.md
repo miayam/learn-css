@@ -4,13 +4,13 @@ How do you apply styling to an element or a group of elements on the web page?
 > We search for an element or a group of elements with CSS selector and write CSS description that reflects the styling.
 
 What is CSS selector?
-> A token to find a specific element or a group of elements and apply CSS rule to it.
+> A token to find a specific element or a group of elements and apply styling to it.
 
 What is CSS description?
 > A pair of property and value that describes what styling we are going to apply.
 
 What is CSS rule?
-> A piece of code that consist of one or many CSS selectors and one or many CSS descriptions.
+> A piece of code that consist of CSS selector and CSS description.
 
 We group selectors in 3 section (simple selectors, pseudo selectors, complex selectors). 
 
