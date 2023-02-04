@@ -7,10 +7,6 @@ You can size the element as you like or let the browser discovers the right sizi
 Extrinsic sizing is when you size the element explicitly and set the fixed boundary to your
 content. If the content is much bigger than the element, it will overflow.
 
-Intinsic sizing is when you let the browser decide the right sizing for you based on your
-content. The element will contract or expand as the content's size changed. It will not
-overflow.
-
 What does overflow look like?
 
 ```
@@ -22,6 +18,10 @@ What does overflow look like?
   * * * * * *
 
 ```
+
+Intinsic sizing is when you let the browser decide the right sizing for you based on your
+content. The element will contract or expand as the content's size changed. It will not
+overflow.
 
 All boxes consist of content box, padding box, border box, and margin box. Those 4 types of boxes make up
 an element on the page.
