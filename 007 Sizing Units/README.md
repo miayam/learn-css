@@ -3,7 +3,10 @@
 Have you seen `em`, `rem`, `px`, `deg` somewhere in your CSS code?
 Yeah, they are called unit. They are like system of units in physics (`m`, `kg`, `mol`, `A`, or else).
 To correctly measure the distance between two elements or the size of the text or the lightness of the color
-or the width of an element on the page, we need sizing units to describe them. 
+or the width of an element on the page, we need sizing units to describe them.
+
+If you ask ChatGPT, it says:
+> In CSS, sizing units are used to describe the dimensions of elements on a web page such as width, height, font size, and margins. Some common sizing units are pixels (px), ems (em), rems (rem), and percentage (%). Pixels are fixed and stay the same size no matter the screen size. Ems and rems change size based on the font size of the parent or root element. Percentage is based on the size of the parent element. The best sizing unit to use depends on the design needs of the web page and the balance between consistency and flexibility.
 
 ## Numbers Only
 ```css
