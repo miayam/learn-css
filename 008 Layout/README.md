@@ -32,8 +32,7 @@ I think ChatGPT explains it better. Here's what it says:
 >It's important to note that the display property can have a significant impact on the layout and appearance of a web page, so it's important to use it carefully and consistently throughout the stylesheet.
 
 ## Manipulate Child Elements With Flexbox And Grid
-Flexbox and grid are like a `block` element but each of which
-has special abilities.
+Flexbox and grid are like a `block` element but has special abilities.
 
 ### Flexbox
 ```css
