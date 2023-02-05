@@ -1,7 +1,7 @@
 # Sizing Units
 
 Have you seen `em`, `rem`, `px`, `deg` somewhere in your CSS code?
-Yeah, they are called unit. They are like system of units in physics (`m`, `kg`, `mol`, `A`, or else).
+Yeah, they are called unit. They are like a system of measurement in physics (`m`, `kg`, `mol`, `A`, etc).
 To correctly measure the distance between two elements or the size of the text or the lightness of the color
 or the width of an element on the page, we need sizing units to describe them.
 
