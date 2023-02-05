@@ -41,8 +41,9 @@ div {
 }
 ```
 It requires more than a paragraph to explain. Think a box that
-contains items and you can manipulate how they stack inside.
-You can make them either stack horizontally or vertically.
+contains items you can manipulate how they stack inside.
+You can make them either stack horizontally like books in a bookshelf
+or vertically like floors in a building.
 It's flexible. It's a `block` element on steroid.
 
 ### Grid
