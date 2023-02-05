@@ -32,7 +32,7 @@ I think ChatGPT explains it better. Here's what it says:
 >It's important to note that the display property can have a significant impact on the layout and appearance of a web page, so it's important to use it carefully and consistently throughout the stylesheet.
 
 ## Manipulate Child Elements With Flexbox And Grid
-Flexbox and grid are like a `block` element but have special abilities.
+Flexbox and grid are `block` elements on steroid.
 
 ### Flexbox
 ```css
@@ -40,11 +40,9 @@ div {
   display: flex;
 }
 ```
-It requires more than a paragraph to explain. Think a box that
-contains items you can manipulate how they stack inside.
+Think a box that contains items you can manipulate how they stack inside.
 You can make them either stack horizontally like books in a bookshelf
 or vertically like floors in a building.
-It's flexible. It's a `block` element on steroid.
 
 ### Grid
 ```css
