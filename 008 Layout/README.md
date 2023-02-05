@@ -13,6 +13,24 @@ elements:
 * `inline` will take up space as much as its content needed and sit next to each other.
 * `block` will take up the whole space horizontally.
 
+I think ChatGPT explains it better. Here's what it says:
+> The `display` property in CSS determines how an HTML element should be displayed on the web page. It specifies the layout of the element and whether it should be a block-level or inline element.
+> The `display` property can have several values, including:
+>
+> `block`: the element generates a block-level box, which means it takes up the full width of its parent container and creates a new line after the element. Block-level elements include div, h1, p, etc.
+>
+>`inline`: the element generates an inline-level box, which means it takes up only as much width as needed and does not create a new line after the element. Inline-level elements include span, a, strong, etc.
+>
+>`inline-block`: the element generates a box that is both inline-level and block-level, meaning it takes up only as much width as needed and creates a new line after the element.
+>
+>`none`: the element will not be displayed on the web page and will take up no space.
+>
+>`flex`: the element generates a flexible container for distributing space among its children.
+>
+>`grid`: the element generates a grid container for arranging its children into rows and columns.
+>
+>It's important to note that the display property can have a significant impact on the layout and appearance of a web page, so it's important to use it carefully and consistently throughout the stylesheet.
+
 ## Manipulate Child Elements With Flexbox And Grid
 Flexbox and grid are like a `block` element but each of which
 has special abilities.
