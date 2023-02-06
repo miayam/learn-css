@@ -40,9 +40,9 @@ div {
   display: flex;
 }
 ```
-Think a box that contains items you can manipulate how they stack inside.
-You can make them either stack horizontally like books in a bookshelf
-or vertically like floors in a building.
+Think a box that contains items you can manipulate how they group inside.
+You can make them either sits next to each other like books in a bookshelf
+or stack on each other like floors in a building.
 
 ### Grid
 ```css
