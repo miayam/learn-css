@@ -10,15 +10,47 @@ The cascade algorithm is split into 4 distinct stages:
 4. Importance.
 
 Let's say I author CSS rules in `<style>` tag inside the `<body>` and `<link>` a 3rd party
-CSS inside the `<head>`. How does the cascade algorithm work to solve the conflicts?
+CSS inside the `<head>`. Something like this:
+
+```html
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/hey/this/is/external/style.css">
+  </head>
+  <body>
+    <style>
+      h1 {
+        color: blue;
+      }
+    </style>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+```
+Here's what's inside `/hey/this/is/external/style.css`:
+```css
+h1 {
+  color: red;
+}
+```
+
+How does the cascade algorithm work to solve the conflicts?
 
 ## Position And Order Of Appearance
 If CSS rules in `<style>` and 3rd party CSS have same specificity, then CSS I author
-will apply.
+will apply. The `Hello, World!` is blue!
 
 ## Specificity
+What if the external CSS inside `/hey/this/is/external/style.css` looks like this:
+
+```css
+body h1 {
+  color: red;
+}
+```
+
 If the specificity of CSS rules in `<link>` are bigger than in `<style>` tag, the 3rd party CSS will
-apply despite the order of appearance.
+apply despite the order of appearance. The `Hello, World!` is red now.
 
 ## Origin
 The cascade takes into account the origin of the CSS: 
