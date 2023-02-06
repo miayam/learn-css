@@ -1,7 +1,8 @@
 # Inheritance
 
 Some CSS properties inherit their value from their parent, user agent default style,
-or local user default style:
+or local user default style. Acknowledge and forget some of them. I personally only care for
+`font-size`, `font-family`, `font-weight`, and `color`:
 
 * `azimuth`
 * `border-collapse`
