@@ -13,7 +13,7 @@ p {
 }
 ```
 
-You can also write hex codes in a three digit shorthand like this.
+You can also write hex codes in a three digit shorthand like this:
 ```css
 p {
   color: #000; /* It's going to be black. */
