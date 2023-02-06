@@ -100,7 +100,7 @@ ul {
 Normally, a list goes from top to bottom. One direction. With `column-count`, you can
 make them splits into two. Imagine!
 
-## Manipulate An Element's Position
+## Manipulate The Element's Position
 We can get an element out of its flow. What does that mean?
 
 Well, normally, an element stacks next to each other either
