@@ -41,7 +41,7 @@ div {
 }
 ```
 Think a box that contains items you can manipulate how they group inside.
-You can make them either sits next to each other like books in a bookshelf
+You can make them either sit next to each other like books in a bookshelf
 or stack on each other like floors in a building.
 
 ### Grid
