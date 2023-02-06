@@ -45,7 +45,7 @@ p {
 2. `animation` rule type:
 
 ```css
-/* The animation code stolen from w3schools */
+/* The animation code stolen from w3schools. */
 @keyframes example {
   0%   {background-color: red;}
   25%  {background-color: yellow;}
@@ -53,7 +53,7 @@ p {
   100% {background-color: green;}
 }
 
-/* The element to apply the animation to */
+/* The element to apply the animation to. */
 div {
   animation-name: example;
   animation-duration: 4s;
@@ -68,9 +68,10 @@ div {
 }
 ```
 
-4. `transition` rule type.
+4. `transition` rule type:
 
 ```css
+/* The code stolen from w3schools */
 div {
   width: 100px;
   height: 100px;
