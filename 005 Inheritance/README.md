@@ -1,8 +1,8 @@
 # Inheritance
 
-Some CSS properties inherit their value from their parent, user agent default style,
-or local user default style. Acknowledge and forget some of them. I personally only care for
-`font-size`, `font-family`, `font-weight`, and `color`:
+Some CSS properties inherit their value from their parent, the default styling imposed by your browser (Chrome, Firefox, Edge, Opera, etc),
+or the default styling imposed by your OS (Microsoft, MacOS, Android, etc). I personally only care for `font-size`, `font-family`,
+`font-weight`, and `color`. Forget some of them if you choose so:
 
 * `azimuth`
 * `border-collapse`
@@ -50,11 +50,11 @@ Let's say:
 }
 ```
 
-It will make all elements color blue by default.
+It will make all text blue by default.
 
 For non inheritable properties like `margin` or `padding`, they get initial value
-from user-agent base style or local user style (OS, browser extension). They 
-didn't inherit it from their parent.
+from default styling imposed by your browser or OS. They didn't inherit it from
+their parent.
 
 Let's say:
 
