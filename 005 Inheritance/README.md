@@ -28,7 +28,7 @@ The majority of CSS properties derive their value from the browser's default sty
 
 Personally, I am only concerned with `font-size`, `font-family`, `font-weight`, and `color`. Forget some of them if you choose so.
 
-These are inheritable CSS properties. :
+These are inheritable CSS properties:
 
 * `azimuth`
 * `border-collapse`
