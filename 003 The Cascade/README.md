@@ -4,10 +4,10 @@ multiple CSS rules apply to an element or a group of elements.
 
 The cascade algorithm is split into 4 distinct stages:
 
-1. Position and order of appearance.
-2. Specificity.
-3. Origin.
-4. Importance.
+1. Position and order of appearance
+2. Specificity
+3. Origin
+4. Importance
 
 Let's say I author CSS rules in `<style>` tag inside the `<body>` and `<link>` a 3rd party
 CSS inside the `<head>`. Something like this:
@@ -55,11 +55,11 @@ apply despite the order of appearance. The `Hello, World!` is red now.
 ## Origin
 The cascade takes into account the origin of the CSS: 
 
-1. User agent base styles. Default style from browser makers (Firefox, Chrome, etc).
-2. Local user style. Styling from browser extension or OS.
-3. Authored CSS. The CSS that we author.
-4. Local user style with `!important`.
-5. User agent base styles with `!important`.
+1. User agent default style. Default style from browser makers (Firefox, Chrome, etc)
+2. Local user style. Styling from browser imposed by browser extensions or OS (Windows, Linux, MacOS)
+3. Authored CSS. The CSS that we author
+4. Default style from OS or browser extensions with `!important`
+5. Default style from browser makers with `!important`
 
 ## Importance
 The order of importance of CSS rules:
