@@ -70,7 +70,7 @@ main {
 }
 ```
 
-`margin: 20px;` that apply to `main` doesn't make `h1` has a margin of 20px.
+`margin: 20px;` that apply to `main` doesn't make `h1` has a margin of `20px`.
 
 ## How To Explicitly Inherit And Control Inheritance
 
