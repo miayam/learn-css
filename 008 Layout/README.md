@@ -103,7 +103,7 @@ make them splits into two. Imagine!
 ## Manipulate The Element's Position
 We can get an element out of its flow. What does that mean?
 
-Well, normally, an element either sits next to each other (left to right) or stack on each other
+Well, normally, an element either sits next to each other (left to right) or stacks on each other
 (top to bottom) as it's written but somehow you want to make the second `<div>` sticks on top as you scroll down or
 make the `<header>` always in the same position despite the user's scroll position. How? Worry not!
 We have `position` property.
