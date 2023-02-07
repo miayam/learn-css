@@ -35,7 +35,7 @@ p {
 ### Absolute Lengths
 There are many absolute length units you can choose from.
 Acknowledge them and forget them. The next 100 years,
-people will only use `px`.
+people will always use `px`.
 
 * `cm` - Centimeters (`96px`/2.54)
 * `mm` - Milimeters (1/10 of `1cm`)
