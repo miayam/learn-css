@@ -1,7 +1,34 @@
 # Inheritance
 
-Some CSS properties inherit their value from their parent. Most of them get their value from the default styling imposed by your browser (Chrome, Firefox, Edge, Opera, etc), or the default styling imposed by your OS (Windows, Linux, MacOS, etc). I personally only care about `font-size`, `font-family`,
-`font-weight`, and `color`. Forget some of them if you choose so:
+Some CSS properties inherit their value from their parent:
+
+```css
+body {
+  font-family: Helvetica;
+  color: #000;
+}
+
+p {
+  font-weight: bold;
+}
+```
+
+```html
+<body>
+  <p>
+    I am Batman!
+  </p>
+</body>
+```
+
+Despite the fact that the CSS rule that applies to it is only `font-weight: bold;`, the paragraph `<p>` will be a bold black
+Helvetica. Well, **I am Batman!**.
+
+The majority of CSS properties derive their value from the browser's default styling (Chrome, Firefox, Edge, Opera, etc) or the default styling imposed by your OS (Windows, Linux, MacOS, etc).
+
+Personally, I am only concerned with `font-size`, `font-family`, `font-weight`, and `color`. Forget some of them if you choose so.
+
+These are inheritable CSS properties. :
 
 * `azimuth`
 * `border-collapse`
