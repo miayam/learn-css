@@ -103,10 +103,9 @@ make them splits into two. Imagine!
 ## Manipulate The Element's Position
 We can get an element out of its flow. What does that mean?
 
-Well, normally, an element stacks next to each other either
-horizontally or vertically as it's written but somehow you want to make
-it sticks on top as you scroll down. How? Worry not! We have
-`position` property.
+Well, normally, an element either sits next to each other (left to right) or stack on each other
+(top to bottom) as it's written but somehow you want to make it sticks on top as you scroll down.
+How? Worry not! We have `position` property.
 
 There are 5 possible values. These explanations are stolen from [w3schools.com](https://www.w3schools.com/css/css_positioning.asp):
 * HTML elements are positioned `static` by default
