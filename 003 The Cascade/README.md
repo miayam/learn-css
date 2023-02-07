@@ -56,7 +56,7 @@ apply despite the order of appearance. The `Hello, World!` is red now.
 The cascade takes into account the origin of the CSS: 
 
 1. User agent default style. Default style imposed by browser makers (Firefox, Chrome, etc)
-2. Local user style. Default style imposed by browser extensions or OS (Windows, Linux, MacOS)
+2. Local user style. Default style imposed by browser extensions or OS (Windows, Linux, macOS)
 3. Authored CSS. The CSS that we author
 4. Default style imposed by browser extension or OS with `!important`
 5. Default style imposed by browser makers with `!important`

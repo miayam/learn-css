@@ -24,7 +24,7 @@ p {
 Despite the fact that the CSS rule that applies to it is only `font-weight: bold;`, the paragraph `<p>` will be a bold black
 Helvetica. Well, **I am Batman!**
 
-The majority of CSS properties derive their value from the browser's default styling (Chrome, Firefox, Edge, Opera, etc) or the default styling imposed by your OS (Windows, Linux, MacOS, etc).
+The majority of CSS properties derive their value from the browser's default styling (Chrome, Firefox, Edge, Opera, etc) or the default styling imposed by your OS (Windows, Linux, macOS, etc).
 
 Personally, I am only concerned with `font-size`, `font-family`, `font-weight`, and `color`. Forget some of them if you choose so.
 
