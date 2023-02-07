@@ -42,7 +42,7 @@ div {
 ```
 Think a box that contains items you can manipulate how they group inside.
 You can make them either sit next to each other like books in a bookshelf
-or stack on each other like floors in a building.
+or stack on top of each other like floors in a building.
 
 ### Grid
 ```css
@@ -103,7 +103,7 @@ make them splits into two. Imagine!
 ## Manipulate The Element's Position
 We can get an element out of its flow. What does that mean?
 
-Well, normally, an element either sits next to each other (left to right) or stacks on each other
+Well, normally, an element either sits next to each other (left to right) or stacks on top of each other
 (top to bottom) as it's written but somehow you want to make the second `<div>` sticks on top as you scroll down or
 make the `<header>` always in the same position despite the user's scroll position. How? Worry not!
 We have `position` property.
