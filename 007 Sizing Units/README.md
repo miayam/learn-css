@@ -49,7 +49,7 @@ Some of them are useless and esoteric. I only care about `em`, `rem`, `vw`, and 
 
 #### Font-size Relative Units
 * `em` - Relative to the font size of the parent element
-* `rem` - Relative to the font size of root element (`<html></html>`)
+* `rem` - Relative to the font size of root element (`<html>`)
 
 Acknowledge and forget `ex`, `cap`, `ch`, `ic`, `lh`, `rlh`.
 
