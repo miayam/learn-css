@@ -1,7 +1,7 @@
 # Inheritance
 
 Some CSS properties inherit their value from their parent, the default styling imposed by your browser (Chrome, Firefox, Edge, Opera, etc),
-or the default styling imposed by your OS (Windows, Linux, MacOS, etc). I personally only care for `font-size`, `font-family`,
+or the default styling imposed by your OS (Windows, Linux, MacOS, etc). I personally only care about `font-size`, `font-family`,
 `font-weight`, and `color`. Forget some of them if you choose so:
 
 * `azimuth`
