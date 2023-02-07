@@ -105,13 +105,13 @@ div {
 ```css
 /* The code stolen from w3schools */
 div {
-  width: 100px;
+  width: 100px !important;
   height: 100px;
   background: red;
   transition: width 2s;
 }
 
 div:hover {
-  width: 300px; /* The transition will take place when users hover over it. */
+  width: 300px; /* The transition will occur upon hovering, regardless of the width of the div being set with `!important` */
 }
 ```
