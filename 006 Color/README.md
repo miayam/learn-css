@@ -26,7 +26,7 @@ p {
 How do we adjust transparancy in hexadecimal?
 
 Let's say we want to add 50% transparancy to a black text (`#000000`).
-There are 4 slots to place hexadecimal value. Each of which has maximum
+There are 4 slots to place hexadecimal value, each of which has maximum
 value of `FF` or 255 in decimal. The last slot is to define transparancy.
 What is 50% of 255? It is 127.5 but we round it to 128. We convert 128
 into hexadecimal which is `80`. So, the  CSS value to define black with
