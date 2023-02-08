@@ -62,7 +62,7 @@ span {
   display: inline-block;
 }
 ```
-It's an `inline` element on steroid. It respects styling that apply to `block`
+It's an `inline` element on steroid. It respects styling that applies to a `block`
 element. Pretty neat!
 
 ### Floats
