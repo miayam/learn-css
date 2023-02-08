@@ -37,10 +37,10 @@ Margin box is the space between each frame.
 ## Control The Box Model
 
 You can control how the box displayed by setting a value to `display` property in CSS
-* `inline` will take up space as much as its content needed
-* `block` will take up the whole space horizontally
-* `inline-block` will take up space as much as its content needed like `inline` but respects styling that applies to `block`
-* `grid`, `flex`, `inline-flex`, `inline-grid` require more than a paragraph to explain. More on that later
+* `inline` takes up space as much as its content needed
+* `block` takes up the whole space horizontally
+* `inline-block` takes up space as much as its content needed like `inline` but respects styling that applies to `block`
+* `grid`, `flex`, `inline-flex`, and `inline-grid` require more than a paragraph to explain. More on that later
 
 You can also control the sizing of the box by setting a value to `box-sizing` property in CSS.
 * `content-box` means padding's size and border's size will add up to make up an element's size. So `200px` for the content + `40px` of padding + `20px` of border makes a total visible width of `260px`
