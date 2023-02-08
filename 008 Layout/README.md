@@ -42,7 +42,7 @@ div {
 ```
 Think a box that contains items you can manipulate how they group inside.
 You can make them either sit next to each other like books in a bookshelf
-or stack on top of each other like floors in a building.
+or stack on top of each other like floors in a building. It's flexible!
 
 ### Grid
 ```css
