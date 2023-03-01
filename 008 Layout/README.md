@@ -1,6 +1,6 @@
 # Layout
 
-Back in early 90s, you can only use `<table>` to layout a web page.
+Back in early 90s, you can only use `<table>` to lay out a web page.
 Now, we've got modern CSS at your disposal.
 
 First of all, we must understand what `display` property does
