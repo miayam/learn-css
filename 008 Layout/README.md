@@ -6,14 +6,7 @@ Now, you've got modern CSS at your disposal.
 First of all, we must understand what `display` property does
 to an element.
 
-The `display` property describes how an element flows on the page and how
-its child elements behave. We've been introduced to `inline` and `block`
-elements:
-
-* `inline` takes up space as much as its content needed and sit next to each other.
-* `block` takes up the whole space horizontally and creates a new line.
-
-I think ChatGPT explains it better. Here's what it says:
+ChatGPT explains it better. Here's what it says:
 > The `display` property in CSS determines how an HTML element should be displayed on the web page. It specifies the layout of the element and whether it should be a block-level or inline element.
 > The `display` property can have several values, including:
 >
