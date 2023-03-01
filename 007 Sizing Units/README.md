@@ -34,8 +34,7 @@ p {
 
 ### Absolute Lengths
 There are many absolute length units you can choose from.
-Acknowledge them and forget them. The next 100 years,
-people will always use `px`.
+Acknowledge `px` and forget `cm`, `mm`, `Q`, `in`, `pc`.
 
 * `cm` - Centimeters (`96px`/2.54)
 * `mm` - Milimeters (1/10 of `1cm`)
@@ -45,16 +44,16 @@ people will always use `px`.
 * `px` - Pixels
 
 ### Relative Lengths
-Some of them are useless and esoteric. I only care about `em`, `rem`, `vw`, and `vh`. You should too.
+Some of them are esoteric and not widely used. 
 
 #### Font-size Relative Units
 * `em` - Relative to the font size of the parent element
 * `rem` - Relative to the font size of root element (`<html>`)
 
-Acknowledge and forget `ex`, `cap`, `ch`, `ic`, `lh`, `rlh`.
+Acknowledge `em`, `rem` and forget `ex`, `cap`, `ch`, `ic`, `lh`, `rlh`.
 
 #### Viewport Relative Units
 * `vw` - 1% of viewport's width
 * `vh` - 1% of viewport's height
 
-Acknowledge and forget `vi`, `vb`, `vmin`, and `vmax`.
+Acknowledge `vw`, `vh` and forget `vi`, `vb`, `vmin`, `vmax`.
