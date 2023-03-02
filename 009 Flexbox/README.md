@@ -3,7 +3,7 @@
 ![axis](./main-and-cross-axis.svg)
 
 ## What is main axis? 
-The main axis is the one set by `flex-direction` property. If that is `row` your main axis is along the `row`, if it is `column` your main axis is along the `column`. 
+The main axis of a flex container is the primary axis along which flex items are laid out. Beware, it is not necessarily horizontal; it depends on the `flex-direction` property (`column`,`row`, `reversed-row`, `reversed-column`).
 
 ## What is cross axis?
 The cross axis runs in the other direction to the main axis, so if `flex-direction` is `row` the cross axis runs along the `column`.
@@ -85,7 +85,7 @@ p {
 
 ## What would happen if we set `flex` to `auto`?
 Flex items grow to fill the available space. The space is distributed as much
-as it's needed. Longer text will take up more space than the rest of items.
+as it's needed. Longer text will take up more space than the rest of smaller items.
 
 ```css
 /* Shorthand version */
