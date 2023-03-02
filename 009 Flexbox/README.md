@@ -23,8 +23,9 @@ p {
 ```
 
 ## What is the difference between `flex-basis: content` and `flex-basis: auto`?
-HTML:
+The `content` value will just set the width according to the element's content ("Hello world!"). It doesn't matter if you've defined a width for the element through the width property, it would be ignored.
 
+HTML:
 ```
 <article>
   <p>Hello world!</p>
@@ -32,22 +33,20 @@ HTML:
 ```
 
 CSS:
-
 ```
 article {
   display: flex;
 }
 
 article p {
-  width: 500px;
+  width: 500px;  /* Width would be ignored because of `flex-basis: content` */
   flex-basis: content;
 }
 ```
 
-The `content` value will just set the width according to the element's content ("Hello world!"). It doesn't matter if you've defined a width for the element through the width property, it would be ignored.
+On the other hand, the `auto` value verifies if the width property was defined. If so, that will be the element's width (500px). If no, it will fall back to `flex-basis: content`.
 
 HTML:
-
 ```
 <article>
   <p>Hello world!</p>
@@ -55,7 +54,6 @@ HTML:
 ```
 
 CSS:
-
 ```
 article {
   display: flex;
@@ -66,8 +64,6 @@ article p {
   flex-basis: auto;
 }
 ```
-
-On the other hand, the `auto` value verifies if the width property was defined. If so, that will be the element's width (500px). If no, it will fall back to `flex-basis: content`.
 
 ## What would happen if we set `flex` to `initial`?
 
