@@ -67,7 +67,7 @@ article p {
 
 ## What would happen if we set `flex` to `initial`?
 The default. Flex items do not grow to fill the space. 
-They take up space no more than is needed.
+They only take up space no more than their content's length.
 
 ```css
 /* Shorthand version */
