@@ -84,7 +84,7 @@ p {
 ```
 
 ## What would happen if we set `flex` to `auto`?
-Flex items grow to fill the available space and it will be distributed to flex items as much
+Flex items grow to fill the available space. The space is distributed as much
 as it's needed. Longer text will take up more space than the rest of items.
 
 ```css
