@@ -11,7 +11,7 @@ The cross axis runs in the other direction to the main axis, so if `flex-directi
 ## What is `flex-flow`?
 A shorthand for `flex-direction` and `flex-wrap`.
 
-```
+```css
 p {
   flex-flow: row wrap;
 }
@@ -26,14 +26,14 @@ p {
 The `content` value will just set the width according to the element's content ("Hello world!"). It doesn't matter if you've defined a width for the element through the width property, it would be ignored.
 
 HTML:
-```
+```html
 <article>
   <p>Hello world!</p>
 </article>
 ```
 
 CSS:
-```
+```css
 article {
   display: flex;
 }
@@ -47,14 +47,14 @@ article p {
 On the other hand, the `auto` value verifies if the width property was defined. If so, that will be the element's width (500px). If no, it will fall back to `flex-basis: content`.
 
 HTML:
-```
+```html
 <article>
   <p>Hello world!</p>
 </article>
 ```
 
 CSS:
-```
+```css
 article {
   display: flex;
 }
