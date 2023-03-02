@@ -66,7 +66,55 @@ article p {
 ```
 
 ## What would happen if we set `flex` to `initial`?
+The default. Flex items do not grow to fill the space. 
+They take up space no more than is needed.
+
+```css
+/* Shorthand version */
+p {
+  flex: auto;
+}
+
+/* Verbose version */
+p {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+```
 
 ## What would happen if we set `flex` to `auto`?
+Space will be distributed to flex items as much
+as it's needed. Longer text will take up more space
+than the rest of items.
+
+```css
+/* Shorthand version */
+p {
+  flex: auto;
+}
+
+/* Verbose version */
+p {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+```
 
 ## What would happen if we set `flex` to  `1`?
+Space will be disributed equaly to flex items.
+
+```css
+/* Shorthand version */
+p {
+  flex: 1;
+}
+
+/* Verbose version */
+p {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+```
