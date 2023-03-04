@@ -19,7 +19,7 @@ Flex container can manipulate how its children behave with properties as follows
 * `align-content`
 * `flex-wrap`
 
-Flex items can override styling imposed by flex container or adjust themselves inside the flex container as follows:
+Flex items can override styling imposed by flex container or adjust themselves inside the flex container with properties as follows:
 * `align-self`
 * `order`
 * `flex`
