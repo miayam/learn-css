@@ -1,7 +1,5 @@
 # Flexbox
 
-![axis](./main-and-cross-axis.svg)
-
 Flex container is an element with `display: flex`.
 Flex items are direct children of flex container.
 
