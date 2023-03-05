@@ -4,7 +4,7 @@ Everything you see on a web page is a box. All elements are boxes.
 
 You can size the element as you like or let the browser discovers the right sizing for you.
 
-Extrinsic sizing is when you size the element explicitly and set the fixed boundary to your
+**Extrinsic sizing** is when you size the element explicitly and set the fixed boundary to your
 content. If the content is much bigger than the element, it will overflow.
 
 What does overflow look like?
@@ -19,11 +19,11 @@ What does overflow look like?
 
 ```
 
-Intinsic sizing is when you let the browser decide the right sizing for you based on your
+**Intinsic sizing** is when you let the browser decide the right sizing for you based on your
 content. The element will contract or expand as the content's size changed. It will not
 overflow.
 
-All boxes consist of content box, padding box, border box, and margin box. Those 4 types of boxes make up
+A block element consists of content box, padding box, border box, and margin box. Those 4 types of boxes make up
 an element on the page.
 
 Content box is like an artwork.
@@ -38,7 +38,7 @@ Margin box is the space between each frame.
 
 You can control how the box displayed by setting a value to `display` property in CSS
 * `inline` takes up space as much as its content needed
-* `block` takes up the whole space horizontally
+* `block` takes up the whole space horizontally and create a new line.
 * `inline-block` takes up space as much as its content needed like `inline` but respects styling that applies to `block`
 * `grid`, `flex`, `inline-flex`, and `inline-grid` require more than a paragraph to explain. More on that later
 
