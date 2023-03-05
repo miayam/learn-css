@@ -131,17 +131,17 @@ Let's say we'd like to have the vertical gap of 20px between each paragraph and 
     Paragraph 5 <!-- Nothing applies to this paragraph. -->
   <p>
   <p>
-    Paragraph 5 <!-- Margin top of 20px. -->
+    Paragraph 6 <!-- Margin top of 20px. -->
   <p> 
   <h2>Sub title for title 2</h2>
   <p>
-    Paragraph 6 <!-- Red text. -->
+    Paragraph 7 <!-- Red text. -->
   </p>
   <div>
     Woops
   </div>
   <p>
-    Paragraph 7 <!-- Red text. -->
+    Paragraph 8 <!-- Red text. -->
   </p>
   <p>
     Paragraph 9 <!-- Red text. Margin top of 20px. -->
