@@ -41,6 +41,22 @@ section { /* CSS selector (type selector) */
 [href='https://web.dev'] { /* CSS selector (attribute selector) */
   line-height: 1em; /* CSS description */
 }
+
+/* CSS rule */
+[href*='example.com'] { /* A href that contains "example.com" */
+  color: red;
+}
+
+/* CSS rule */
+[href^='https'] { /* A href that starts with https */
+  color: green;
+}
+
+/* CSS rule */
+[href$='.com'] { /* A href that ends with .com */
+  color: blue;
+}
+
 ```
 
 ## Pseudo Selectors
