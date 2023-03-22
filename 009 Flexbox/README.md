@@ -65,3 +65,13 @@ Assume flex container has more space than is needed. How do flex items absorb th
 `flex: auto` will make flex items space shared out after each item is laid out as max-content size. They will take up space but with different size.
 
 `flex: 1` will make flex items space shared equally.
+
+For accessibility's sake, do not use `order`, `row-reverse`, and `column-reverse`.
+
+Here's the explanation of `order`, `row-reverse`, and `column-reverse` from ChatGPT:
+
+> `order` is a property that can be applied to flexbox items to control their display order within their parent container. By default, flex items are displayed in the order in which they appear in the source code. However, by setting the order property to a value other than the default of 0, you can change the order in which items appear visually on the screen.
+>
+> `row-reverse` is a value that can be applied to the flex-direction property to reverse the order in which flex items are displayed horizontally (i.e., in a row). By default, the flex-direction property is set to row, which means that flex items are displayed in a row from left to right. When `row-reverse` is applied, the items are displayed in reverse order, from right to left.
+>
+> `column-reverse` is a value that can be applied to the flex-direction property to reverse the order in which flex items are displayed vertically (i.e., in a column). When `column-reverse` is applied, the items are displayed in reverse order, from bottom to top, instead of top to bottom, which is the default behavior when the flex-direction property is set to column.
