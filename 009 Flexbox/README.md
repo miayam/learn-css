@@ -55,3 +55,13 @@ Here's the explanation about `align-items` and `align-self` from ChatGPT:
 > On the other hand, "align-self" is a CSS property that allows you to control the vertical alignment of a single flex item within the flex container. This property applies only to a single item, while "align-items" applies to all items in the container.
 >
 > The available values for "align-self" are the same as "align-items", but apply only to the item to which "align-self" is applied. For example, you might set "align-self: center" on a single item to center it vertically within its row, while leaving the other items aligned to the top or bottom of the row using "align-items".
+
+Assume flex container has more space than is needed. How do flex items absorb the remaining space inside?
+
+`flex-grow`, `flex-shrink`, and `flex-basis` are properties to control space inside flex items. `flex` is a shorthand for setting those properties.
+
+`flex: initial` will make flex items do not grow, can shrink smaller than their `flex-basis` which is the size of their content.
+
+`flex: auto` will make flex items space shared out after each item is laid out as max-content size. They will take up space but with different size.
+
+`flex: 1` will make flex items space shared equally.
