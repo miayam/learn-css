@@ -17,58 +17,50 @@ We group selectors in 3 section (simple selectors, pseudo selectors, complex sel
 ## Simple Selectors
 
 ```css
-/* CSS rule */
 * { /* CSS selector (universal selector) */
   box-sizing: border-box; /* CSS description */
 }
 
-/* CSS rule */
 section { /* CSS selector (type selector) */
   padding: 2em;  /* CSS description */
 }
 
-/* CSS rule */
 .selector { /* CSS selector (class selector) */
   color: lightblue; /* CSS description */
 }
 
-/* CSS rule */
 #selector { /* CSS selector (id selector) */
   margin: 1em; /* CSS description */
 }
 
-/* CSS rule */
 [href='https://web.dev'] { /* CSS selector (attribute selector) */
   line-height: 1em; /* CSS description */
 }
 
-/* CSS rule */
-[href*='example.com'] { /* A href that contains "example.com" */
-  color: red;
+[href*='example.com'] { /* CSS selector (attribute selector). A href that contains "example.com" */
+  color: red; /* CSS description */
 }
 
 /* CSS rule */
-[href^='https'] { /* A href that starts with https */
-  color: green;
+[href^='https'] { /* CSS selector (attribute selector). A href that starts with https */
+  color: green; /* CSS description */
 }
 
 /* CSS rule */
-[href$='.com'] { /* A href that ends with .com */
-  color: blue;
+[href$='.com'] { /* CSS selector (attribute selector). A href that ends with .com */
+  color: blue; /* CSS description */
 }
 
 ```
 
 ## Pseudo Selectors
 ```css
-/* CSS rule */
 p::before,
 p::after { /* CSS selector (pseudo-element selector). A CSS pseudo-element is used to style specified parts of an element.
  */
   margin-left: 2px; /* CSS description */
 }
 
-/* CSS rule */
 p:hover,
 p:focus { /* CSS selector (pseudo-class selector). A pseudo-class is used to define a special state of an element.
  */
@@ -78,27 +70,22 @@ p:focus { /* CSS selector (pseudo-class selector). A pseudo-class is used to def
 
 ## Complex Selectors
 ```css
-/* CSS rule */
 main p { /* CSS selector (descendant, all p inside main) */
   position: absolute; /* CSS description */
 }
 
-/* CSS rule */
 p + p { /* CSS selector (adjuscent sibling) */
   transform: translateX(-50%); /* CSS description */
 }
 
-/* CSS rule */
 h2 ~ p { /* CSS selector (general sibling) */
   background-color: blue; /* CSS description */
 }
 
-/* CSS rule */
 main > p { /* CSS selector (direct child) */
   display: flex; /* CSS description */
 }
 
-/* CSS rule */
 p.selector.selector1 { /* CSS selector (compound to increase specificity) */
   margin-right: 300px; /* CSS description */
 }
@@ -161,4 +148,3 @@ main > h2 ~ p {
 ```
 
 See the difference?
-
