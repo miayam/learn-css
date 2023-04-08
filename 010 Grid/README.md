@@ -16,6 +16,14 @@ Think `fr` unit as a fraction. The space in container is shared between each ite
 ![fr](./fr.png)
 
 ### The `minmax()` Function
+As per the CSS spec, the definition of `minmax(min, max)` is as the following:
+
+> Defines a size range greater than or equal to min and less than or equal to max.
+
+Ahmad Shadeed wrote [article about `minmax()`](https://ishadeed.com/article/css-grid-minmax/). 
+\
+\
+![minmax](./minmax.png)
 
 ### `repeat()` Notation
 
