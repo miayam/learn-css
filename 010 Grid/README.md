@@ -4,3 +4,39 @@ It's a `block` element with super powers. Its child elements can be thought of a
 
 ## Grid Terminology
 ![grid terminology](./grid-terminology.png)
+
+## Rows and Columns
+
+### Intrinsic Sizing Keywords
+
+### The `fr` Unit
+
+### The `minmax()` Function
+
+### `repeat()` Notation
+
+### `auto-fill` and `auto-fit`
+
+## Auto-placement
+
+### Placing Items In Columns
+
+### Spaning Tracks
+
+### Filling Gaps
+
+## Placing Items
+
+### Stacking Items
+
+### Negative Line Numbers
+
+## Named Grid Lines
+
+## Grid Template Areas
+
+## Alignment
+
+### Distributing Extra Space
+
+### Moving Content Around
