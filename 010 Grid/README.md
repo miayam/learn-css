@@ -10,7 +10,7 @@ It's a `block` element with super powers. Its child elements can be thought of a
 ### Intrinsic Sizing Keywords
 * `min-content` means the longest word in string
 * `max-content` means it's wide enough for all of the words to display in one long unbroken string
-* `fit-content` behaves like `max-content` at first, but when a parameter passed down to function, the content starts to wrap
+* `fit-content()` behaves like `max-content` at first, but when a parameter passed down to function, the content starts to wrap
 
 ### The `fr` Unit
 Think `fr` unit as a fraction. The space in container is shared between each item. That's `1fr`. `2fr` is twice as much. `3fr` is thrice as much. That's all.
