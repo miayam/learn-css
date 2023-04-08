@@ -29,14 +29,39 @@ Ahmad Shadeed wrote [article about `minmax()`](https://ishadeed.com/article/css-
 
 ```css
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 ```
 \
 ![repeat](./repeat.png)
 
 ### `auto-fill` and `auto-fit`
+
+`auto-fill` keyword:
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  );
+}
+```
+
+`auto-fit` keyword:
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  );
+}
+```
+\
+![auto-fill-and-fit](./auto-fill-and-fit.png)
+
 
 ## Auto-placement
 
