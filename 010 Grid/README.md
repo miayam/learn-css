@@ -75,7 +75,27 @@ Ahmad Shadeed wrote [article about `minmax()`](https://ishadeed.com/article/css-
 ![auto-fill-and-fit](./auto-fill-and-fit.png)
 
 ## Auto-placement
+Items are placed on the grid one per cell in the order that they appear in the source.
+
 ### Placing Items In Columns
+
+```html
+<div class="container">
+  <div class="box">Item 1</div>
+  <div class="box">Item 2</div>
+  <div class="box">Item 3</div>
+  <div class="box">Item 4</div>
+</div>
+```
+
+The default behaviour is like this: 
+
+![auto-placement default](./auto-placement-default.png)
+
+Here's when `grid-auto-flow: column` applied:
+
+![auto-placement column](./auto-placement-column.png)
+
 ### Spaning Tracks
 ### Filling Gaps
 
