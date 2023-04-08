@@ -10,9 +10,9 @@ It's a `block` element with super powers. Its child elements can be thought of a
 ### Intrinsic Sizing Keywords
 
 ### The `fr` Unit
-Think `fr` unit as a fraction. The space in container is shared between each item. That's `1fr`. `2fr` is twice as much. `3fr` is thrice as much. That's all.\
+Think `fr` unit as a fraction. The space in container is shared between each item. That's `1fr`. `2fr` is twice as much. `3fr` is thrice as much. That's all.
 
-![fr](./fr.png)
+\![fr](./fr.png)
 
 ### The `minmax()` Function
 
