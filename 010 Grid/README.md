@@ -10,6 +10,7 @@ It's a `block` element with super powers. Its child elements can be thought of a
 ### Intrinsic Sizing Keywords
 
 ### The `fr` Unit
+![fr](./fr.png)
 
 ### The `minmax()` Function
 
