@@ -5,7 +5,19 @@ It's a `block` element with super powers. Its child elements can be thought of a
 ## Grid Terminology
 ![grid terminology](./grid-terminology.png)
 
-## Rows and Columns
+## Rows and Columns 
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 400px;
+  gap: 10px;
+}
+```
+
+![rows-and-column](./row-and-column.png)
+
 
 ### Intrinsic Sizing Keywords
 * `min-content` means the longest word in string
@@ -62,19 +74,13 @@ Ahmad Shadeed wrote [article about `minmax()`](https://ishadeed.com/article/css-
 \
 ![auto-fill-and-fit](./auto-fill-and-fit.png)
 
-
 ## Auto-placement
-
 ### Placing Items In Columns
-
 ### Spaning Tracks
-
 ### Filling Gaps
 
 ## Placing Items
-
 ### Stacking Items
-
 ### Negative Line Numbers
 
 ## Named Grid Lines
@@ -82,7 +88,5 @@ Ahmad Shadeed wrote [article about `minmax()`](https://ishadeed.com/article/css-
 ## Grid Template Areas
 
 ## Alignment
-
 ### Distributing Extra Space
-
 ### Moving Content Around
