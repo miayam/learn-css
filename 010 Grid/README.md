@@ -27,6 +27,15 @@ Ahmad Shadeed wrote [article about `minmax()`](https://ishadeed.com/article/css-
 
 ### `repeat()` Notation
 
+```css
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+```
+\
+![repeat](./repeat.png)
+
 ### `auto-fill` and `auto-fit`
 
 ## Auto-placement
