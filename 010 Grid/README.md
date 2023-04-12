@@ -97,6 +97,37 @@ Here's when `grid-auto-flow: column` applied:
 ![auto-placement column](./auto-placement-column.png)
 
 ### Spaning Tracks
+HTML:
+```html
+<div class="container">
+  <div class="box">Item One</div>
+  <div class="box">Item Two</div>
+  <div class="box">Item Three</div>
+  <div class="box">Item Four</div>
+  <div class="box">Item Five</div>
+  <div class="box">Item Six</div>
+  <div class="box">Item Seven</div>
+  <div class="box">Item Eight</div>
+</div>
+```
+CSS:
+```css
+.container {
+  display: grid;
+  grid-template-columns: 5em 100px 30%;
+  grid-template-rows: 200px;
+  gap: 10px;
+}
+```
+
+Default:
+\
+![span1](./span1.png)
+
+Here's when we apply `grid-column: auto / span 2` to the second item:
+\
+![span2](./span2.png)
+
 ### Filling Gaps
 
 ## Placing Items
