@@ -120,7 +120,7 @@ CSS:
 }
 ```
 
-Default:
+The default behaviour:
 \
 ![span1](./span1.png)
 
@@ -129,6 +129,39 @@ Here's when we apply `grid-column: auto / span 2` to the second item:
 ![span2](./span2.png)
 
 ### Filling Gaps
+HTML:
+```html
+<div class="container">
+  <div class="box">Item 1</div>
+  <div class="box">Item 2</div>
+  <div class="box">Item 3</div>
+  <div class="box">Item 4</div>
+</div>
+```
+
+CSS:
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.box:nth-child(1) {
+  grid-row: auto / span 2;
+}
+
+.box:nth-child(3) {
+  grid-column: auto / span 2; 
+}
+```
+
+The default behaviour:
+\
+![sparse](./sparse.png)
+
+Here's when we apply `grid-auto-flow: dense` to `.container`:
+\
+![dense](./dense.png)
 
 ## Placing Items
 ### Stacking Items
