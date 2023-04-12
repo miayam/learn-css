@@ -73,7 +73,6 @@ Ahmad Shadeed wrote [article about `minmax()`](https://ishadeed.com/article/css-
 }
 ```
 \
-\
 ![auto-fill-and-fit](./auto-fill-and-fit.png)
 
 ## Auto-placement
