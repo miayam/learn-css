@@ -46,6 +46,7 @@ Ahmad Shadeed wrote [article about `minmax()`](https://ishadeed.com/article/css-
 }
 ```
 \
+\
 ![repeat](./repeat.png)
 
 ### `auto-fill` and `auto-fit`
@@ -71,6 +72,7 @@ Ahmad Shadeed wrote [article about `minmax()`](https://ishadeed.com/article/css-
   );
 }
 ```
+\
 \
 ![auto-fill-and-fit](./auto-fill-and-fit.png)
 
@@ -122,9 +124,11 @@ CSS:
 
 The default behaviour:
 \
+\
 ![span1](./span1.png)
 
 Here's when we apply `grid-column: auto / span 2` to the second item:
+\
 \
 ![span2](./span2.png)
 
@@ -157,9 +161,11 @@ CSS:
 
 The default behaviour:
 \
+\
 ![sparse](./sparse.png)
 
 Here's when we apply `grid-auto-flow: dense` to `.container`:
+\
 \
 ![dense](./dense.png)
 
