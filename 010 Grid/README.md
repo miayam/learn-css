@@ -169,6 +169,104 @@ Here's when we apply `grid-auto-flow: dense` to `.container`:
 ![dense](./dense.png)
 
 ## Placing Items
+You can place items using grid lines.
+
+HTML:
+```html
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+```
+
+CSS:
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(200px, 1fr));
+  grid-template-rows: repeat(6, minmax(200px, 1fr))
+}
+
+.box:nth-child(1) {
+  /* Verbose */
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  /* Shorthand */
+  grid-column: 1/5;
+  grid-row: 1/3;
+}
+
+.box:nth-child(2) {
+  /* Verbose */
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  /* Shorthand */
+  grid-column: 5/8;
+  grid-row: 1/3;
+}
+
+.box:nth-child(3) {
+  /* Verbose */
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 6;
+
+  /* Shorthand */
+  grid-column: 1/4;
+  grid-row: 3/6;
+}
+
+.box:nth-child(4) {
+  /* Verbose */
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  /* Shorthand */
+  grid-column: 4/8;
+  grid-row: 3/4;
+}
+
+.box:nth-child(5) {
+  /* Verbose */
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 6;
+
+  /* Shorthand */
+  grid-column: 4/8;
+  grid-row: 4/6;
+}
+
+.box:nth-child(6) {
+  /* Verbose */
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 7;
+
+  /* Shorthand */
+  grid-column: 1/8;
+  grid-row: 6/7;
+}
+```
+Here's the illustration:
+\
+![placing items](./placing-items.png)
+
 ### Stacking Items
 ### Negative Line Numbers
 
