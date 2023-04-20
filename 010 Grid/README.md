@@ -270,6 +270,7 @@ Here's the illustration:
 ### Stacking Items
 Items can overlap. Items which come later in the source will be displayed on top of items that come earlier. You can change this stacking order using z-index just as with positioned items.
 \
+\
 ![stacking items](./stacking-items.png)
 
 
