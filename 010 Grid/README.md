@@ -22,7 +22,7 @@ It's a `block` element with super powers. Its child elements can be thought of a
 ### Intrinsic Sizing Keywords
 * `min-content` means the longest word in string
 * `max-content` means it's wide enough for all of the words to display in one long unbroken string
-* `fit-content()` behaves like `max-content` at first, but when a parameter passed down to function, the content starts to wrap
+* `fit-content()` behaves like `max-content` at first, but when a parameter passed down to it, the content starts to wrap
 
 ### The `fr` Unit
 ![fr](./fr.png)
@@ -268,6 +268,11 @@ Here's the illustration:
 ![placing items](./placing-items.png)
 
 ### Stacking Items
+Items can overlap. Items which come later in the source will be displayed on top of items that come earlier. You can change this stacking order using z-index just as with positioned items.
+\
+![stacking items](./stacking-items.png)
+
+
 ### Negative Line Numbers
 
 ## Named Grid Lines
