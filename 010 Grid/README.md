@@ -275,14 +275,20 @@ Items can overlap. Items which come later in the source will be displayed on top
 
 
 ### Negative Line Numbers
-We can use negative line numbers to place items. Take [this section](/#placing-items) for example.
+We can use negative line numbers to place items.
 
 Here's the illustration:
 \
 \
 ![negative line numbers](./negative-line-numbers.png)
 
-We span to the last grid line with negative line numbers:
+We span to the last grid line with negative line numbers.
+
+From this:
+\
+\
+![spaning with line numbers](./spaning-with-line-number.png)
+To this:
 \
 \
 ![spaning with negative line number](./spaning-with-negative-line-number.png)
