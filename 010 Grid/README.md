@@ -288,6 +288,8 @@ From this:
 \
 \
 ![spaning with line numbers](./spaning-with-line-number.png)
+\
+\
 To this:
 \
 \
