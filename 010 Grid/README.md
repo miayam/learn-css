@@ -304,9 +304,9 @@ Instead of numbers, you can name the grid lines to define placements of items:
 HTML:
 ```html
 <div class="container">
-  <div class="box"></div>
-  <div class="box"></div>
-  <div class="box"></div>
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
 </div>
 ```
 
