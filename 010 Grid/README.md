@@ -263,6 +263,7 @@ CSS:
   grid-row: 6/7;
 }
 ```
+
 Here's the illustration:
 \
 ![placing items](./placing-items.png)
@@ -298,6 +299,33 @@ To this:
 The negative line numbers only work on **explicit** grid.
 
 ## Named Grid Lines
+Instead of numbers, you can name the grid lines to define placements of items:
+
+HTML:
+```html
+<div class="container">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+</div>
+```
+
+CSS:
+```css
+.container {
+  display: grid;
+  grid-template-columns: [main-start aside-start] 1fr [aside-end content-start] 2fr [content-end main-end];
+  grid-template-rows: 300px 180px;
+  grid-auto-rows: auto;
+}
+
+.box:nth-child(3) {
+  grid-column: main-start / main-end; 
+}
+```
+Here's the illustration:
+\
+![named grid lines](./named-grid-lines.png)
 
 ## Grid Template Areas
 
