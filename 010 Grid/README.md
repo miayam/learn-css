@@ -360,7 +360,7 @@ CSS:
 .container {
   display: grid;
   grid-template-columns: repeat(8, 100px);
-  grid-template-rows: repeat(6, 100px);
+  grid-template-rows: repeat(5, 100px);
   grid-template-areas:
     "header  header  header  header  header  header  header  header"
     "sidebar sidebar content content content content content content"
