@@ -299,7 +299,7 @@ To this:
 The negative line numbers only work on **explicit** grid.
 
 ## Named Grid Lines
-Instead of numbers, you can name the grid lines to define placements of items:
+Instead of numbers, you can name the grid lines to define the placement of items:
 
 HTML:
 ```html
