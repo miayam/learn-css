@@ -335,7 +335,7 @@ Let's say we have a layout like this:
 \
 ![grid area layout](./grid-area-layout.png)
 
-We divide the layout into 8 columns and 6 rows.
+We divide the layout into 8 columns and 5 rows.
 
 HTML:
 ```html
