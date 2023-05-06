@@ -332,11 +332,12 @@ We can name grid lines. We also can name grid area.
 
 Let's say we have a layout like this:
 \
+\
 ![grid area layout](./grid-area-layout.png)
 
 We divide the layout into 8 columns and 6 rows.
 
-HTML
+HTML:
 ```html
 <div class="container">
   <header>
@@ -354,7 +355,7 @@ HTML
 </div>
 ```
 
-CSS
+CSS:
 ```css
 .container {
   display: grid;
