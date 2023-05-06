@@ -328,6 +328,62 @@ Here's the illustration:
 ![named grid lines](./named-grid-lines.png)
 
 ## Grid Template Areas
+We can name grid lines. We also can name grid area. 
+
+Let's say we have a layout like this:
+\
+![grid area layout](./grid-area-layout.png)
+
+We divide the layout into 8 columns and 6 rows.
+
+HTML
+```html
+<div class="container">
+  <header>
+    Header
+  </header>
+  <aside>
+    Sidebar
+  </aside>
+  <main>
+    Content
+  </main>
+  <footer>
+    Footer
+  </footer>
+</div>
+```
+
+CSS
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  grid-template-rows: repeat(6, 100px);
+  grid-template-areas:
+    "header  header  header  header  header  header  header  header"
+    "sidebar sidebar content content content content content content"
+    "sidebar sidebar content content content content content content"
+    "sidebar sidebar content content content content content content"
+    "footer  footer  footer  footer  footer  footer  footer  footer";
+}
+
+header {
+  grid-area: header;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+main {
+  grid-area: content;
+}
+
+footer {
+  grid-area: footer;
+}
+```
 
 ## Alignment
 ### Distributing Extra Space
