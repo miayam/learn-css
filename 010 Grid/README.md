@@ -328,7 +328,7 @@ Here's the illustration:
 ![named grid lines](./named-grid-lines.png)
 
 ## Grid Template Areas
-We can name grid lines. We also can name grid area. 
+We can name grid lines. We also can name grid areas. 
 
 Let's say we have a layout like this:
 \
@@ -387,5 +387,91 @@ footer {
 ```
 
 ## Alignment
+Grid layout uses the same alignment properties as flexbox.
+
 ### Distributing Extra Space
+Let's say we have extra space in our grid container.
+
+HTML:
+```html
+<div class="container">
+  <div class="box">Item 1</div>
+  <div class="box">Item 2</div>
+  <div class="box">Item 3</div>
+  <div class="box">Item 4</div>
+  <div class="box">Item 5</div>
+  <div class="box">Item 6</div>
+</div>
+```
+
+CSS:
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px);
+  gap: 10px; 
+  width: 1000px;
+  height: 1000px;
+}
+
+.box {
+  min-height: calc(200px / 3);
+  min-width: calc(200px / 3);
+}
+
+.box:nth-child(1) {
+  align-self: start;
+}
+
+.box:nth-child(2) {
+  align-self: center;
+}
+
+.box:nth-child(5) {
+  align-self: center;
+  justify-self: center;
+}
+
+.box:nth-child(6) {
+  align-self: end;
+}
+```
+
+Here's the default behaviour:
+\
+\
+![alignment-default](./alignment-default.png)
+
+If we want to place items at the bottom of container,
+we can set `align-content: end`:
+\
+\
+![alignment-end](./alignment-end.png)
+
+Or we place items at the center of container vertically,
+we can set `align-content: center`:
+\
+\
+![alignment-start-center](./alignment-start-center.png)
+
+What if we want to spread the space in between items horizontally?
+We can set `align-content: space-between`:
+\
+\
+![alignment-start-space-between](./alignment-start-space-between.png)
+
+We can also center vertically and horizontally with `justify-content: center` and `align-content: center`:
+\
+\
+![alignment-center](./alignment-center.png)
+
+We can spread the space in between both vertically and horizontally with
+`justify-content: space-between` and `align-content: space-between`:
+\
+\
+![alignment-space-between](./alignment-space-between.png)
+
+You can also use these values: `space-evenly`, `space-around`, `baseline`, and  `stretch (default)`. [Read on](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout).
+
 ### Moving Content Around
