@@ -475,3 +475,78 @@ We can spread the space in between both vertically and horizontally with
 You can also use these values: `space-evenly`, `space-around`, `baseline`, and  `stretch (default)`. [Read on](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout).
 
 ### Moving Content Around
+
+The grid items will stretch when we don't set `justify-items` or `align-items`.  
+
+Here's the default behaviour:
+\
+\
+![items-default](./items-default.png)
+
+We can align the items and place them at the top of grid area by setting `justify-items: start`:
+\
+\
+![items-start](./items-end.png)
+
+We can align the items and place them at the bottom of grid area by setting `justify-items: end`:
+\
+\
+![items-end](./items-end.png)
+
+We can align the items at the center of grid area by setting `justify-items: center`:
+\
+\
+![items-center](./items-center.png)
+
+We can move content around as we please
+
+HTML:
+```html
+<div class="container">
+  <div class="box">Item 1</div>
+  <div class="box">Item 2</div>
+  <div class="box">Item 3</div>
+  <div class="box">Item 4</div>
+  <div class="box">Item 5</div>
+  <div class="box">Item 6</div>
+</div>
+```
+
+CSS:
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px);
+  gap: 10px; 
+  width: 1000px;
+  height: 1000px;
+}
+
+.box {
+  min-height: calc(200px / 3);
+  min-width: calc(200px / 3);
+}
+
+.box:nth-child(1) {
+  align-self: start;
+}
+
+.box:nth-child(2) {
+  align-self: center;
+}
+
+.box:nth-child(5) {
+  align-self: center;
+  justify-self: center;
+}
+
+.box:nth-child(6) {
+  align-self: end;
+}
+```
+
+Here's the result:
+\
+\
+![items-selfs](./items-selfs.png)
