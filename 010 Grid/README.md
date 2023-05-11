@@ -486,7 +486,7 @@ Here's the default behaviour:
 We can align the items and place them at the top of grid area by setting `justify-items: start`:
 \
 \
-![items-start](./items-end.png)
+![items-start](./items-start.png)
 
 We can align the items and place them at the bottom of grid area by setting `justify-items: end`:
 \
