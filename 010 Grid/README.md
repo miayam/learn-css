@@ -498,7 +498,7 @@ We can align the items at the center of grid area by setting `justify-items: cen
 \
 ![items-center](./items-center.png)
 
-We can move content around as we please
+We can move content around as we please.
 
 HTML:
 ```html
