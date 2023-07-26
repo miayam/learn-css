@@ -7,7 +7,7 @@ Now, when playing chess, you may encounter situations where the direction of the
 Logical properties in CSS provide a way to describe the layout and positioning of elements based on the logical direction of the content, regardless of the physical direction. It refers to the edges of a box as they relate to the *flow of content*. It's like making moves on the chessboard based on the changing direction of the game. So, left, right, top, and bottom are relative to which side you are on.
 
 ## Block Flow
-When the chessboard is flipped upside down, the top becomes the bottom, and vice versa. The logical properties for top and bottom will be block-start and block-end, respectively. For instance, `margin-top` will be `margin-block-start`, and `margin-bottom` will be `margin-block-end`.
+When the chessboard is flipped upside down, the top becomes the bottom, and vice versa. The logical properties for top and bottom will be `block-start` and `block-end`, respectively. For instance, `margin-top` will be `margin-block-start`, and `margin-bottom` will be `margin-block-end`.
 
 ## Inline Flow
 When we invert the chessboard, the left side becomes the right, and vice versa. The logical properties for left and right will change to `inline-start` and `inline-end`.
@@ -21,6 +21,17 @@ The `block-size` CSS property defines the horizontal or vertical size of an elem
 The `inline-size` CSS property defines the horizontal or vertical size of an element's block, depending on its writing mode. It's equivalent to `width` in normal flow.
 
 ## Start and End
+Instead of `top`, `bottom`, `left`, `right`, use `start` and `end`. For example:
+
+```css
+.text {
+  text-align: end; /* Equivalent to `right` */
+}
+
+.text2 {
+  text-align: start; /* Equivalent to `left` */
+}
+```
 
 ## Spacing and Positioning
 
